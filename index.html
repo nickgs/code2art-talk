@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Code 2 Art - An exploration of creative coding.</title>
+
+		<meta name="description" content="Code 2 Art - An exploration of creative coding.">
+		<meta name="author" content="Nick Selvaggio">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="sego/sego_style.css">
+    <link rel="stylesheet" href="sego/code2art.css">
+
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js" integrity="sha256-hTadFyx999S2PaNVgI6MyGaojC6fzBZb2D5GibT/Fno=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js" integrity="sha256-XJv4F6vIKIxDBK9yFUP0+7QP6z7AHjwNvmAS/ZsNogM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js" integrity="sha256-6pVtCAjafcylu7oG0UhoMkUxhAMMMKP5elLWf9UXS+c=" crossorigin="anonymous"></script>
+
+     <script src="js/sketch1.js"></script>
+     <script src="js/sketch2.js"></script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+    <header>
+      <div class="stack-starter">
+        <blockquote>StackStarter.io/spin</blockquote>
+      </div>
+      <div class="spin-code">
+        <blockquote>Spin Code: CODE2ART</blockquote>
+      </div>
+    </header>
+
+    <div id="sketch"></div>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-state="openning">
+					<div class="headline">
+            <h1><span class='lowlight'>Code 2</span> <span class='highlight'>Art</span></h1>
+            <p>An exploration of expressing with code.</p>
+          </div>
+				</section>
+
+        <section data-state="clear">
+          <h2>A little about us.</h2>
+        </section>
+
+        <section>
+          <h2>What is creative coding?</h2>
+        </section>
+
+				<section data-transition="linear" data-background="#527c97" data-background-transition="slide">
+					<h2>A little about you.</h2>
+					<aside class="notes">
+              <ul>
+                <li>Who has heard of CC?</li>
+                <li>Any old school Flash devs in the house?</li>
+              </ul>
+            </aside>
+				</section>
+
+        <section>
+          <h2>What are our goals this evening?</h2>
+          <p class="fragment" data-fragment-index="1">Introduce us to the meduim.</p>
+             <p class="fragment" data-fragment-index="2">Introduce core basic programming concepts.</p>
+             <p class="fragment" data-fragment-index="3">Walk away with instilled confidence to explore and learn more!</p>
+        </section>
+
+				<section>
+					<h2>Play Along!</h2>
+					<img src="images/ss_logo_blkbg.png" class="no-style-image" style="width: 360px;"/>
+					<blockquote>StackStarter.io/spin</blockquote>
+          <blockqoute style="font-size: .8em">Spin Code: CODE2ART</blockquote>
+					<aside class="notes">
+              <ul>
+                <li>We will be going through alot of code.</li>
+                <li>A spin has been configured for your enjoyment!</li>
+              </ul>
+            </aside>
+				</section>
+
+				<section  data-state="sketch2">
+					<section>
+						<h2>Lets dive into an example</h2>
+						<aside class="notes">
+              <ul>
+                <li>Review the sample sketch.</li>
+              </ul>
+            </aside>
+					</section>
+				</section>
+
+				<section>
+					<section>
+             <h2>Lets step back...</h2>
+             <p>Some fundamentals</p>
+             <aside class="notes">
+              <ul>
+                <li></li>
+              </ul>
+            </aside>
+          </section>
+          <section>
+             <h2>What is a program?</h2>
+             <aside class="notes">
+              <ul>
+                <li>A series of intructions for a computer to follow</li>
+                <li>Inputs --> Execution --> Outputs</li>
+              </ul>
+            </aside>
+          </section>
+         <section>
+             <h2>What does a program consist of?</h2>
+             <aside class="notes">
+              <ul>
+                <li>Data, Instructions</li>
+                <li>Inputs --> Execution --> Outputs</li>
+              </ul>
+            </aside>
+          </section>
+				</section>
+
+        <section>
+          <h2>What is Processing?</h2>
+        </section>
+
+				<section>
+					<section>
+						<h2>Lets dive in!</h2>
+						<img src="images/dive_in.gif"/>
+					</section>
+				</section>
+
+      <section>
+          <p>Some inspiration...</p>
+          <p class="fragment" data-fragment-index="1"><a href="http://www.complexification.net/gallery/">Gallery of Computation (Jared Tarbell)</a></p>
+          <p class="fragment" data-fragment-index="2"><a href="https://vimeo.com/flight404">Flight404 (Robert Hodgin)</a></p>
+          <p class="fragment" data-fragment-index="3"><a href="https://www.youtube.com/user/shiffman">Coding Train / Nature of Code (Daniel Shiffman)</a></p>
+
+      </section>
+      <section>
+          <p>Thank you!</p>
+          <h3>Questions?</h3>
+          <p>Slides Available: <br/> <a href="http://nickgs.com/code2art-talk">http://nickgs.com/code2art-talk</a></p>
+      </section>
+			</div>
+		<footer class="sego-logo">
+      <a href="http://www.segosolutions.net/"><img src="sego/sego_logo_blkbg.png" alt="Sego Solutions logo" height=50" /></a>
+    </footer>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Parallax scrolling
+				//parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				//parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+      Reveal.addEventListener('openning', function() {
+        document.getElementById("sketch").innerHTML = "";
+        //start given sketch.
+        var myp5 = new p5(s, 'sketch');
+      });
+
+      Reveal.addEventListener('sketch2', function() {
+        document.getElementById("sketch").innerHTML = "";
+        //start given sketch.
+        var myp5 = new p5(s2, 'sketch');
+      });
+
+      Reveal.addEventListener('clear', function() {
+        document.getElementById("sketch").innerHTML = "";
+      });
+
+		</script>
+
+	</body>
+</html>
