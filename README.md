@@ -1,7 +1,7 @@
-# Drupal 8 Module Test Drive
+# Code 2 Art Talk @ LIVP March 9th.
 
-These slides are designed to accompany a introductory talk on Drupal 8 Module Development.
+These slides are designed to accompany a introductory talk on Creative Coding.
 
-Target running time of 45min - 1 hour
+Target running time of 2 hours.
 
 Powered by reveal.js
